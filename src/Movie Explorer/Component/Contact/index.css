@@ -1,0 +1,54 @@
+.robot-contact-container {
+  background-color: #0b0b0b;
+  min-height: 100vh;
+  padding: 3rem;
+  font-family: 'Orbitron', sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.robot-contact-title {
+  color: #00ffe5;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  text-shadow: 0 0 10px #00ffe5;
+}
+
+.robot-contact-form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.robot-input,
+.robot-textarea {
+  padding: 1rem;
+  border: none;
+  border-radius: 8px;
+  background: #1a1a1a;
+  color: #00ffe5;
+  font-size: 1rem;
+  outline: none;
+}
+
+.robot-textarea {
+  height: 150px;
+  resize: none;
+}
+
+.robot-button {
+  background-color: #00ffe5;
+  color: #0b0b0b;
+  padding: 0.8rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.robot-button:hover {
+  background-color: #00bfa6;
+}

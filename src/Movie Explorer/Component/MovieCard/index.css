@@ -1,0 +1,52 @@
+.movie-card {
+  background-color: #1a1a1a;
+  border: 1px solid #00ffe5;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 250px;
+  margin: 1rem;
+  font-family: 'Orbitron', sans-serif;
+  box-shadow: 0 0 10px #00ffe5;
+  transition: transform 0.3s;
+
+}
+
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-poster {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.movie-info {
+  padding: 1rem;
+  color: #fff;
+}
+
+.movie-title {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rating {
+  color: #00ffe5;
+}
+
+.details-btn {
+  background-color: #00ffe5;
+  color: #0d0d0d;
+  padding: 0.3rem 0.6rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}

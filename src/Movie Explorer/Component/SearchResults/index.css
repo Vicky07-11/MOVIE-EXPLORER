@@ -1,0 +1,41 @@
+.robot-search-page {
+  background-color: #0b0f1a;
+  min-height: 100vh;
+  padding: 3rem 2rem;
+  color: #00ffe5;
+  font-family: "Orbitron", sans-serif;
+}
+
+.robot-search-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #00ffe5;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 10px #00ffe5, 0 0 20px #00ffe5;
+}
+
+.robot-highlight {
+  color: #ff00cc;
+  text-shadow: 0 0 5px #ff00cc, 0 0 15px #ff00cc;
+}
+
+.robot-message,
+.robot-error {
+  text-align: center;
+  font-size: 1.25rem;
+  margin-top: 2rem;
+  color: #cccccc;
+}
+
+.robot-error {
+  color: #ff4d4d;
+  text-shadow: 0 0 5px #ff4d4d;
+}
+
+.robot-movie-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem 0;
+}

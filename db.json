@@ -1,0 +1,16 @@
+{
+    "emp":[
+        {
+            "name":"Ram",
+            "email":"ram@gmail.com"
+        },
+        {
+            "name":"Sam",
+            "email":"sam@gmail.com"
+        },
+        {
+            "name":"Tom",
+            "email":"tom@gmail.com"
+        }
+    ]
+}

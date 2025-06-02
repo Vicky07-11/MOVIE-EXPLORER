@@ -1,0 +1,23 @@
+.robot-about-container {
+  background-color: #0a0a0a;
+  color: #fff;
+  min-height: 100vh;
+  padding: 4rem 2rem;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.robot-about-title {
+  color: #00ffe5;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 0 10px #00ffe5;
+}
+
+.robot-about-text {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #ccc;
+}

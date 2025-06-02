@@ -1,0 +1,140 @@
+/* Import Orbitron Font */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap');
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.robot-navbar {
+  background-color: #0a0f1c;
+  color: #00ffe5;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Orbitron', sans-serif;
+  box-shadow: 0 0 20px #00ffe5;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-inner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Logo */
+.robot-logo a {
+  color: #00ffe5;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-shadow: 0 0 10px #00ffe5;
+}
+
+/* Navigation Links */
+.robot-nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.robot-nav-links li a {
+  color: #00ffe5;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.robot-nav-links li a:hover {
+  background-color: #00ffe5;
+  color: #0a0f1c;
+  box-shadow: 0 0 12px #00ffe5;
+  transform: scale(1.05);
+}
+
+/* Search Input & Button */
+.robot-search-form {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.robot-search-input {
+  padding: 0.5rem 1rem;
+  border: 2px solid #00ffe5;
+  border-radius: 8px;
+  background-color: transparent;
+  color: #00ffe5;
+  font-family: 'Orbitron', sans-serif;
+  outline: none;
+}
+
+.robot-search-input::placeholder {
+  color: #00ffe5;
+  opacity: 0.7;
+}
+
+.robot-search-button {
+  padding: 0.5rem 1rem;
+  background-color: #00ffe5;
+  color: #0a0f1c;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-family: 'Orbitron', sans-serif;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.robot-search-button:hover {
+  background-color: #0ff;
+  box-shadow: 0 0 10px #00ffe5;
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #00ffe5;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .robot-nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #0a0f1c;
+    margin-top: 1rem;
+    border-top: 1px solid #00ffe5;
+  }
+
+  .robot-nav-links.open {
+    display: flex;
+  }
+
+  .robot-search-form {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .robot-search-input {
+    width: 70%;
+  }
+
+  .robot-search-button {
+    width: 28%;
+  }
+}

@@ -1,0 +1,18 @@
+.robot-footer {
+  background-color: #0d0d0d;
+  padding: 1rem;
+  text-align: center;
+  color: #00ffe5;
+  border-top: 2px solid #00ffe5;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.robot-footer a {
+  color: #00ffe5;
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+.robot-footer a:hover {
+  text-decoration: underline;
+}
